@@ -75,3 +75,39 @@ success_msg("Great! You have the basics of assigning values to variables. And yo
 
 
 
+
+
+---
+## Prevalence comparison
+
+```yaml
+type: NormalExercise
+
+xp: 100
+
+key: a5f925630f
+
+
+
+```
+
+An important purpose of prevalence estimation is to compare disease occurrence over time, among sub-populations, or across geographic regions. Practice calculating prevalence using these examples.
+- In 150,000 older adults, 500 had disease.
+- In 300,000 younger adults, 100 had disease.
+
+`@instructions`
+- Assign values for the populations of **older_adults** and for **younger_adults**.
+- Assign values for the numbers of cases with disease in each group. Use **older_cases** and **younger_cases**.
+- Calculate prevalence in each population.
+
+`@hint`
+
+
+
+
+
+
+
+
+
+
