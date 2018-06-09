@@ -96,9 +96,9 @@ An important purpose of prevalence estimation is to compare disease occurrence o
 - In 300,000 younger adults, 100 had disease.
 
 `@instructions`
-- Assign values for the populations of **older_adults** and for **younger_adults**.
-- Assign values for the numbers of cases with disease in each group. Use **older_cases** and **younger_cases**.
-- Calculate the prevalence in each population, **older_prevalence** and **younger_prevalence**. 
+- Assign values for the populations of **olderAdults** and for **youngerAdults**.
+- Assign values for the numbers of cases with disease in each group. Use **olderCases** and **youngerCases**.
+- Calculate the prevalence in each population, **olderPrevalence** and **youngerPrevalence**. 
 - Display each result by simply typing the prevalence variable name.
 
 `@hint`
@@ -131,29 +131,29 @@ older_prevalence
 ```
 `@solution`
 ```{r}
-# Assign the older_adults value of 150,000
-older_adults <- 150000
+# Assign the olderAdults value of 150,000
+olderAdults <- 150000
 
-# Assign the younger_adults value of 300,000
-younger_adults <- 300000
+# Assign the youngerAdults value of 300,000
+youngerAdults <- 300000
 
-# Assign the older_cases value of 500
-older_cases <- 500
+# Assign the olderCases value of 500
+olderCases <- 500
 
-# Assign the younger_cases value of 100
-younger_cases <- 100
+# Assign the youngerCases value of 100
+youngerCases <- 100
 
 # Calculate the prevalence of disease among older adults
-older_prevalence <- older_cases / older_adults
+olderPrevalence <- olderCases / olderAdults
 
 # Calculate the prevalence in younger adults
-younger_prevalence <- younger_cases / younger_adults
+youngerPrevalence <- youngerCases / youngerAdults
 
 # Display each prevalence result
 # Older
-older_prevalence
+olderPrevalence
 # Younger
-younger_prevalence
+youngerPrevalence
 ```
 
 
