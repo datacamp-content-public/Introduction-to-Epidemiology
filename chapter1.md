@@ -107,25 +107,25 @@ An important purpose of prevalence estimation is to compare disease occurrence o
 
 `@sample_code`
 ```{r}
-# Assign the older_adults value of 150,000
-older_adults <- 150000
+# Assign the olderAdults value of 150,000
+olderAdults <- 150000
 
-# Assign the younger_adults value of 300,000
+# Assign the youngerAdults value of 300,000
 
-# Assign the older_cases value of 500
-older_cases <- 500
+# Assign the olderCases value of 500
+olderCases <- 500
 
-# Assign the younger_cases value of 100
+# Assign the youngerCases value of 100
 
 # Calculate the prevalence of disease among older adults
-older_prevalence <- older_cases / older_adults
+olderPrevalence <- olderCases / olderAdults
 
 # Calculate the prevalence in younger adults
-younger_prevalence <- 
+youngerPrevalence <- 
 
 # Display each prevalence result
 # Older
-older_prevalence
+olderPrevalence
 # Younger
 
 ```
