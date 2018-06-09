@@ -1,6 +1,6 @@
 ---
-title: Template Chapter 1
-description: This is a template chapter.
+title: Disease Occurrence
+description: Calculating prevalence and incidence
 ---
 
 ## An exercise title written in sentence case
@@ -13,20 +13,17 @@ skills: 1
 key: 353e68ba0c
 ```
 
-This is the assignment text. It should help provide students with the background information needed.
-The instructions that follow should be in bullet point form with clear guidance for what is expected.
+Prevalence is the proportion of a population that has a disease or condition at a certain time. For example, let's assume that in a population of 500,000 we detect 100 cases of disease.
 
 `@instructions`
-- Instruction 1
-- Instruction 2
-- Instruction 3
-- Instruction 4
+- Assign the value 500,000 to a variable called population.
+- Assign 100 to a variable called cases.
+- Calculate the proportion of cases per population. Save this result to a variable called prevalence.
 
 `@hint`
-- Here is the hint for this setup problem. 
-- It should get students 50% of the way to the correct answer.
-- So don't provide the answer, but don't just reiterate the instructions.
-- Typically one hint per instruction is a sensible amount.
+- To assign a variable use the <- operator, as in this example: population <- 500000. 
+- Prevalence = cases / population
+
 
 `@pre_exercise_code`
 
@@ -37,29 +34,44 @@ The instructions that follow should be in bullet point form with clear guidance 
 `@sample_code`
 
 ```{r}
-# Your
-# sample
-# code
-# should
-# be
-# ideally
-# 10 lines or less,
-# with a max
-# of 16 lines.
+# Assign the population variable
+population <- 500000
+
+# Or use scientific notation if it's clearer. The result is the same in R.
+population <- 5 * 10^5
+
+# Finish the assignment of the cases variable
+cases <- ___
+
+# Finish the prevalence calculation
+prevalence <- cases / ___
+
+# Print the prevalence result
+prevalence
 ```
 
 `@solution`
 
 ```{r}
-# Answer goes here
-# Make sure to match the comments with your sample code
-# to help students see the differences from solution
-# to given.
+# Assign the population variable
+population <- 500000
+
+# Or use scientific notation if it's clearer. The result is the same in R.
+population <- 5 * 10^5
+
+# Finish the assignment of the cases variable
+cases <- 100
+
+# Finish the prevalence calculation
+prevalence <- cases / population
+
+# Print the prevalence result
+prevalence
 ```
 
 `@sct`
 
 ```{r}
 # Update this to something more informative.
-success_msg("Some praise! Then reinforce a learning objective from the exercise.")
+success_msg("Great! You have the basics of assigning values to variables. And you've used your skills to calculate prevalence, an important measure of disease occurrence.")
 ```
