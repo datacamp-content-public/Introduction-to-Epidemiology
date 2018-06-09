@@ -3,7 +3,7 @@ title: Disease Occurrence
 description: Calculating prevalence and incidence
 ---
 
-## An exercise title written in sentence case
+## Prevalence
 
 ```yaml
 type: NormalExercise
