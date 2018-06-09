@@ -101,8 +101,6 @@ An important purpose of prevalence estimation is to compare disease occurrence o
 - Calculate the prevalence in each population, **olderPrevalence** and **youngerPrevalence**. 
 - Display each result by simply typing the prevalence variable name.
 
-`@hint`
-
 
 
 `@sample_code`
@@ -127,7 +125,6 @@ youngerPrevalence <-
 # Older
 olderPrevalence
 # Younger
-
 ```
 `@solution`
 ```{r}
@@ -178,10 +175,6 @@ key: 144ec286cf
 
 
 
-`@instructions`
-
-
-`@hint`
 
 
 
@@ -192,3 +185,21 @@ key: 144ec286cf
 
 
 
+
+
+---
+## Prevalence
+
+```yaml
+type: VideoExercise
+
+xp: 50
+
+key: 8ba6e7451b
+
+
+
+```
+
+`@projector_key`
+6e06bd4fec46234c3844c651c3c1e003
