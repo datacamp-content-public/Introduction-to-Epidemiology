@@ -160,3 +160,35 @@ youngerPrevalence
 
 
 
+
+
+---
+## Prevalence across many groups
+
+```yaml
+type: NormalExercise
+
+xp: 100
+
+key: 144ec286cf
+
+
+
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+
+
+
+
+
+
+
+
