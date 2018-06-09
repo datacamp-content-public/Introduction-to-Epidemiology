@@ -1,8 +1,9 @@
 ---
-title: Disease Occurrence
-description: Calculating prevalence and incidence
----
+  title: "Disease Occurrence"
+  description: "Calculating prevalence and incidence"
+  v2: true
 
+---
 ## Prevalence
 
 ```yaml
@@ -11,9 +12,12 @@ lang: r
 xp: 100
 skills: 1
 key: 353e68ba0c
+
+
+
 ```
 
-Prevalence is the proportion of a population that has a disease or condition at a certain time. For example, let's assume that in a population of 500,000 we detect 100 cases of disease.
+Prevalence is the proportion of a population that has a disease or condition at a certain time. For example, let's calculate prevalence for a population of 500,000 in which we detected 100 cases of disease.
 
 `@instructions`
 - Assign the value 500,000 to a variable called population.
@@ -24,15 +28,11 @@ Prevalence is the proportion of a population that has a disease or condition at 
 - To assign a variable use the <- operator, as in this example: population <- 500000. 
 - Prevalence = cases / population
 
-
 `@pre_exercise_code`
-
 ```{r}
 # Load datasets and packages here.
 ```
-
 `@sample_code`
-
 ```{r}
 # Assign the population variable
 population <- 500000
@@ -49,9 +49,7 @@ prevalence <- cases / ___
 # Print the prevalence result
 prevalence
 ```
-
 `@solution`
-
 ```{r}
 # Assign the population variable
 population <- 500000
@@ -68,10 +66,12 @@ prevalence <- cases / population
 # Print the prevalence result
 prevalence
 ```
-
 `@sct`
-
 ```{r}
 # Update this to something more informative.
 success_msg("Great! You have the basics of assigning values to variables. And you've used your skills to calculate prevalence, an important measure of disease occurrence.")
 ```
+
+
+
+
